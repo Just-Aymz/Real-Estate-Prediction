@@ -6,8 +6,8 @@ This repository contains an end-to-end data science project aimed at predicting 
 
 1. [Project Overview](#project-overview)
 2. [Data Collection](#data-collection)
-3. [Data Cleaning and Preprocessing]()
-4. [Exploratory Data Analysis (EDA)]()
+3. [Data Cleaning and Preprocessing](#data-cleaning-and-preprocessing)
+4. [Exploratory Data Analysis (EDA)](#exploratory-data-analysis-(eda))
 5. [Feature Engineering]()
 6. [Modeling]()
 7. [API Development]()
@@ -48,12 +48,21 @@ Data cleaning ensures high-quality inputs for the model. This step includes:
 * **Null Values**:
   *   There were a toal of 34189 null values in the dataframe.
   *   Features with majority null values were dropped, these included: address, Erf_size_(m²).
-  *   Floor size and Lounges null values were imputed using KNNimputer from sklearn library.
+  *   Floor size and Lounges null values were imputed using KNNimputer from the sklearn library.
 * **Outlier Values**:
   *  Removed outlier values from the dataset.
 
 ### Exploratory Data Analysis (EDA)
 
 EDA is conducted to understand relationships between features and uncover patterns in the data. Visualisations and statistical tests are included, focusing on:
+
 **Feature Distribution Before Scaling**:
+* The distribution of the features is positively skewed, with Bathroom being slightly skewed, and Price, Floor Size, Bedrooms, and Lounges being heavily skewed.
+* Price and Floor Size are found to contain continuous numeric data, whereas the other features are found to contain discrete numeric data.
+
+![output](https://github.com/user-attachments/assets/358909f8-104f-4281-8e3b-438b294262c2)
+
+**Correlation To Attrition Feature**
+* The features most correlated to the Price of a property
+* The most correlated feature to Price, is Bedrooms, with a correlation coefficient of 0.78.
 
