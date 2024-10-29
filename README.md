@@ -55,3 +55,5 @@ Data cleaning ensures high-quality inputs for the model. This step includes:
 ### Exploratory Data Analysis (EDA)
 
 EDA is conducted to understand relationships between features and uncover patterns in the data. Visualisations and statistical tests are included, focusing on:
+**Feature Distribution Before Scaling**:
+
