@@ -66,7 +66,7 @@ EDA is conducted to understand relationships between features and uncover patter
 * The features most correlated to the Price of a property.
 * The most correlated feature to Price, is Bedrooms, with a correlation coefficient of 0.78
 
-![output](https://github.com/user-attachments/assets/cd6b69a6-7c67-498d-a0e4-3c67ac2447a5)
+![output](https://github.com/user-attachments/assets/072a8dc4-6f46-4fe8-8e04-21948a68dcb4)
 
 **Total Properties per Suburb**
 * There are a total of 2711 properties in the dataset from Fourways, Sunninghill, and Lonehill.
@@ -74,3 +74,9 @@ EDA is conducted to understand relationships between features and uncover patter
 * There are a total of 2411 properties in the dataset from Rosebank and Parktown.
 
 ![output](https://github.com/user-attachments/assets/699b6b1a-5bac-4c0f-96e4-a30024eff128)
+
+**Average Price Point per Suburb**
+* Rosebank and Parktown are the most expensive suburbs based on the properties in the dataset.
+* Modderfontein is the least expensive suburb based on the properties in the dataset.
+* However, this needs to be caveated by the fact that Modderfontein has significantly fewer properties that make this average.
+
