@@ -44,9 +44,9 @@ Data cleaning ensures high-quality inputs for the model. This step includes:
 * **Data Cleaning**:
   * *Miscellaneous Data Errors* - Converted property details and features from strings into list objects, iterating through them to extract key-value pairs. These pairs were then used to create dataframes, which were appended to the original dataframe.
 * **Duplicate Values**:
-  * There were a total of 4 duplicated values that were identified and removed from the dataframe.
+  * There were a total of 4 duplicated values were identified and removed from the dataframe.
 * **Null Values**:
-  *   There were a toal of 34189 null values in the dataframe.
+  *   There were a total of 34189 null values in the dataframe.
   *   Features with majority null values were dropped, these included: address, Erf_size_(m²).
   *   Floor size and Lounges null values were imputed using KNNimputer from the sklearn library.
 * **Outlier Values**:
@@ -73,4 +73,4 @@ EDA is conducted to understand relationships between features and uncover patter
 * There are a total of 308 properties in the dataset from Modderfontein.
 * There are a total of 2411 properties in the dataset from Rosebank and Parktown.
 
-
+![output](https://github.com/user-attachments/assets/699b6b1a-5bac-4c0f-96e4-a30024eff128)
