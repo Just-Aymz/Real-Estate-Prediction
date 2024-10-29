@@ -62,7 +62,15 @@ EDA is conducted to understand relationships between features and uncover patter
 
 ![output](https://github.com/user-attachments/assets/358909f8-104f-4281-8e3b-438b294262c2)
 
-**Correlation To Attrition Feature**
-* The features most correlated to the Price of a property
-* The most correlated feature to Price, is Bedrooms, with a correlation coefficient of 0.78.
+**Correlation To Price Feature**
+* The features most correlated to the Price of a property.
+* The most correlated feature to Price, is Bedrooms, with a correlation coefficient of 0.78
+
+![output](https://github.com/user-attachments/assets/cd6b69a6-7c67-498d-a0e4-3c67ac2447a5)
+
+**Total Properties per Suburb**
+* There are a total of 2711 properties in the dataset from Fourways, Sunninghill, and Lonehill.
+* There are a total of 308 properties in the dataset from Modderfontein.
+* There are a total of 2411 properties in the dataset from Rosebank and Parktown.
+
 
