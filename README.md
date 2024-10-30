@@ -1,8 +1,8 @@
-# Property Price Prediction
+# **Property Price Prediction**
 
 This repository contains an end-to-end data science project aimed at predicting property prices using real-time scraped data. The project involves data scraping, cleaning, model building, API creation, and web deployment, demonstrating a comprehensive workflow for a data science solution.
 
-# Table Of Content
+# **Table Of Content**
 
 1. [Project Overview](#project-overview)
 2. [Data Collection](#data-collection)
@@ -18,11 +18,11 @@ This repository contains an end-to-end data science project aimed at predicting 
 12. [Future Work](#future-work)
 13. [Contact](#contact)
 
-### Project Overview
+# **Project Overview**
 
 The goal of this project is to build a predictive model that estimates property prices based on various features gathered from online sources. The project walks through the process of web scraping, data processing, and model deployment, ultimately creating an accessible API and a user-friendly interface for real estate price predictions.
 
-### Data Collection
+# **Data Collection**
 
 Property price data is collected through web scraping. Key aspects include:
 * **Source**: Scraped from [PrivateProperty.co.za](https://www.privateproperty.co.za/).
@@ -38,7 +38,7 @@ Property price data is collected through web scraping. Key aspects include:
   | Property Features | List | None |
   | Image | String | None |
 
-### Data Cleaning and Preprocessing
+# **Data Cleaning and Preprocessing**
 
 Data cleaning ensures high-quality inputs for the model. This step includes:
 * **Data Cleaning**:
@@ -52,7 +52,7 @@ Data cleaning ensures high-quality inputs for the model. This step includes:
 * **Outlier Values**:
   *  Removed outlier values from the dataset.
 
-### Exploratory Data Analysis (EDA)
+# **Exploratory Data Analysis**
 
 EDA is conducted to understand relationships between features and uncover patterns in the data. Visualisations and statistical tests are included, focusing on:
 
@@ -107,7 +107,7 @@ Feature engineering is applied to create meaningful features that improve model 
   * Due to the heavy skew of the features—price, floor size, bathrooms, and lounges—a log transformation was applied to bring about a more normal distribution before applying scaling.
   * RobustScaler was applied to the features because of the aforementioned reasons.
 
-# **Modeling**:
+# **Modeling**
 Multiple regression models were tested to determine the best fit for property price prediction, including:
 
 * **Algorithms**:
@@ -117,10 +117,10 @@ Multiple regression models were tested to determine the best fit for property pr
 * **Model Selection**:
   * Hyperparameter tuning via GridSearchCV to identify the optimal model.
  
-# **API Development**:
+# **API Development**
 An API was developed to make predictions available for live queries. Key points include:
 
-* **Framework**:
+* **Framework**
   * Flask (or FastAPI).
 * **Endpoints**:
   * ```/predict``` - Takes property details as input and returns predicted price.
@@ -135,10 +135,10 @@ The model and API are deployed to make the service accessible:
 * **Web Interface**:
   * A simple frontend allows users to input property details and view the predicted price.
 
-# **Results**:
+# **Results**
 The final model achieves an MAE of X and an RMSE of Y, indicating robust predictive accuracy. The model’s performance was evaluated against benchmark datasets, with satisfactory results on new unseen data.
 
-# **Usage**:
+# **Usage**
 To use the API or access the web app:
 
 1. Visit the [deployment link here]()
