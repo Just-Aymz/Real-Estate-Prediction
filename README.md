@@ -100,14 +100,14 @@ Feature engineering is applied to create meaningful features that improve model 
 
 * **One-Hot Encoding**:
   *  Applied one-hot encoding on the suburb and property type features to convert the string features into numeric feature that can be used in training the model, removed one feature from each of the generated features from the two variables to avoid multicollinearity.
-*  **Scaling and Transformation** :
-  *  used the skew function to find the skew direction of each feature. It was found that all the features have a positive skew, with price, floor size, bathrooms, and lounges having a heavy positive skew, whilst bedrooms only had a slight positive skew
-  *  The p-value of each feature was found using the Normal Statistical test to confirm the distribution of the features. All the features rejected the null hypothesis (the assumption made was that all the features are normally distributed).
-  *  Based on the kurtosis value of each feature, it was found that all the features had a Leptokurtic distribution, which indicated the presence of heavier tails in the distribution curve of the feature, which means that the features contained outlier values. This was taken into consideration when identifying the scaling method.
-  *  Due to the heavy skew of the features—price, floor size, bathrooms, and lounges—a log transformation was applied to bring about a more normal distribution before applying scaling.
-  *  RobustScaler was applied to the features because of the aforementioned reasons.
+* **Scaling and Transformation** :
+  * Used the skew function to find the skew direction of each feature. It was found that all the features have a positive skew, with price, floor size, bathrooms, and lounges having a heavy positive skew, whilst bedrooms only had a slight positive skew
+  * The p-value of each feature was found using the Normal Statistical test to confirm the distribution of the features. All the features rejected the null hypothesis (the assumption made was that all the features are normally distributed).
+  * Based on the kurtosis value of each feature, it was found that all the features had a Leptokurtic distribution, which indicated the presence of heavier tails in the distribution curve of the feature, which means that the features contained outlier values. This was taken into consideration when identifying the scaling method.
+  * Due to the heavy skew of the features—price, floor size, bathrooms, and lounges—a log transformation was applied to bring about a more normal distribution before applying scaling.
+  * RobustScaler was applied to the features because of the aforementioned reasons.
 
-* **Modeling**:
+# **Modeling**:
 Multiple regression models were tested to determine the best fit for property price prediction, including:
 
 * **Algorithms**:
@@ -117,7 +117,7 @@ Multiple regression models were tested to determine the best fit for property pr
 * **Model Selection**:
   * Hyperparameter tuning via GridSearchCV to identify the optimal model.
  
-* **API Development**:
+# **API Development**:
 An API was developed to make predictions available for live queries. Key points include:
 
 * **Framework**:
