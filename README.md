@@ -126,3 +126,48 @@ An API was developed to make predictions available for live queries. Key points 
   * ```/predict``` - Takes property details as input and returns predicted price.
 * **Testing**:
   * API tested with real-world inputs to ensure accurate predictions.
+
+# **Deployment**
+The model and API are deployed to make the service accessible:
+
+* **Cloud Platform**:
+  * Deployed on [mention platform, e.g., AWS, Heroku].
+* **Web Interface**:
+  * A simple frontend allows users to input property details and view the predicted price.
+
+# **Results**:
+The final model achieves an MAE of X and an RMSE of Y, indicating robust predictive accuracy. The model’s performance was evaluated against benchmark datasets, with satisfactory results on new unseen data.
+
+# **Usage**:
+To use the API or access the web app:
+
+1. Visit the [deployment link here]()
+2. Use the form to input property details (location, size, etc.).
+3. Submit to view the predicted property price.
+4. Alternatively, clone the repository to run the project locally:
+```
+git clone https://github.com/yourusername/property-price-prediction.git
+cd property-price-prediction
+pip install -r requirements.txt
+python app.py
+```
+
+# **Technologies Used**
+1. **Web Scraping**: Selenium
+2. **Data Processing**: Pandas, NumPy
+3. **Data Visualisation**: Matplotlib, Seaborn
+4. **Modeling**: Scikit-Learn, XGBoost
+5. **API Development**: FastAPI
+6. **Deployment**: AWS, Docker, [your chosen platform]
+
+# **Future Work**
+* **Continuous Learning**: Implementing a pipeline for automated retraining with new data.
+* **Enhanced Features**: Including additional predictors like economic indicators.
+* **Feature Engineering**: Scrape more information to include more features to add useful features the model can use to predict more accurate scores.
+* **User Interface Improvements**: Adding more detailed information and interactivity in the web app.
+
+# **Contact**
+For questions or collaborations, please reach out via:
+
+**Email**: [your-email@example.com]()
+**LinkedIn**: [Your LinkedIn Profile]()
