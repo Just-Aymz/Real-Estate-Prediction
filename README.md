@@ -93,3 +93,36 @@ EDA is conducted to understand relationships between features and uncover patter
 
 ![output](https://github.com/user-attachments/assets/4f38c7ee-fed0-445d-9b1f-837427525979)
 
+![output](https://github.com/user-attachments/assets/c7a17bb8-14a1-43f8-be4e-711090417d28)
+
+# **Feature Engineering**
+Feature engineering is applied to create meaningful features that improve model accuracy. Examples include:
+
+* **One-Hot Encoding**:
+  *  Applied one-hot encoding on the suburb and property type features to convert the string features into numeric feature that can be used in training the model, removed one feature from each of the generated features from the two variables to avoid multicollinearity.
+*  **Scaling and Transformation** :
+  *  used the skew function to find the skew direction of each feature. It was found that all the features have a positive skew, with price, floor size, bathrooms, and lounges having a heavy positive skew, whilst bedrooms only had a slight positive skew
+  *  The p-value of each feature was found using the Normal Statistical test to confirm the distribution of the features. All the features rejected the null hypothesis (the assumption made was that all the features are normally distributed).
+  *  Based on the kurtosis value of each feature, it was found that all the features had a Leptokurtic distribution, which indicated the presence of heavier tails in the distribution curve of the feature, which means that the features contained outlier values. This was taken into consideration when identifying the scaling method.
+  *  Due to the heavy skew of the features—price, floor size, bathrooms, and lounges—a log transformation was applied to bring about a more normal distribution before applying scaling.
+  *  RobustScaler was applied to the features because of the aforementioned reasons.
+
+* **Modeling**:
+Multiple regression models were tested to determine the best fit for property price prediction, including:
+
+* **Algorithms**:
+  * Linear Regression, Random Forest, Gradient Boosting, XGBoost.
+* **Evaluation Metrics**:
+  * Mean Absolute Error (MAE), Root Mean Squared Error (RMSE).
+* **Model Selection**:
+  * Hyperparameter tuning via GridSearchCV to identify the optimal model.
+ 
+* **API Development**:
+An API was developed to make predictions available for live queries. Key points include:
+
+* **Framework**:
+  * Flask (or FastAPI).
+* **Endpoints**:
+  * ```/predict``` - Takes property details as input and returns predicted price.
+* **Testing**:
+  * API tested with real-world inputs to ensure accurate predictions.
