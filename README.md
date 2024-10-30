@@ -88,3 +88,8 @@ EDA is conducted to understand relationships between features and uncover patter
 ![output](https://github.com/user-attachments/assets/f3b3f1dd-207a-4638-8f9b-bb65cbe8c5ed)
 
 **Average Price per Property Type**
+* Based on the average price per property plot, it can be seen that the small holding property type is on average the most valuable, however, on further analysis, we can see that  we do not really large sample space into this matter, with only one property being a small holding in the entire dataset
+* We can see that the next 3 most expensive property types are Houses, Penthouses, and Clusters. Based on the dataset, we can see that Rosebank and Parktown have the most of this property type.
+
+![output](https://github.com/user-attachments/assets/4f38c7ee-fed0-445d-9b1f-837427525979)
+
