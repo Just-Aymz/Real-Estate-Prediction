@@ -75,8 +75,13 @@ EDA is conducted to understand relationships between features and uncover patter
 
 ![output](https://github.com/user-attachments/assets/699b6b1a-5bac-4c0f-96e4-a30024eff128)
 
-**Average Price Point per Suburb**
+**Average Price per Suburb**
 * Rosebank and Parktown are the most expensive suburbs based on the properties in the dataset.
 * Modderfontein is the least expensive suburb based on the properties in the dataset.
 * However, this needs to be caveated by the fact that Modderfontein has significantly fewer properties that make this average.
+
+![output](https://github.com/user-attachments/assets/e713b3e9-18f4-4459-89ed-654f3defac6e)
+
+**Average Price per m²**
+* Modderfontein has the highest average price per m² out of the three areas with a total price of R23961 per m² on average
 
