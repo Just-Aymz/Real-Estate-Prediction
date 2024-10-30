@@ -121,7 +121,7 @@ Multiple regression models were tested to determine the best fit for property pr
 An API was developed to make predictions available for live queries. Key points include:
 
 * **Framework**
-  * Flask (or FastAPI).
+  * FastAPI.
 * **Endpoints**:
   * ```/predict``` - Takes property details as input and returns predicted price.
 * **Testing**:
