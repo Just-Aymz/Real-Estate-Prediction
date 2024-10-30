@@ -169,5 +169,5 @@ python main.py
 # **Contact**
 For questions or collaborations, please reach out via:
 
-**Email**: [your-email@example.com]()
-**LinkedIn**: [Your LinkedIn Profile]()
+**Email**: [amogelangmore96@gmail.com](amogelangmore96@gmail.com)
+**LinkedIn**: [Amogelang More](www.linkedin.com/in/amogelang-more-5b305a2a6)
