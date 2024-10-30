@@ -85,3 +85,6 @@ EDA is conducted to understand relationships between features and uncover patter
 **Average Price per m²**
 * Modderfontein has the highest average price per m² out of the three areas with a total price of R23961 per m² on average
 
+![output](https://github.com/user-attachments/assets/f3b3f1dd-207a-4638-8f9b-bb65cbe8c5ed)
+
+**Average Price per Property Type**
