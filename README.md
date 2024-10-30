@@ -146,10 +146,10 @@ To use the API or access the web app:
 3. Submit to view the predicted property price.
 4. Alternatively, clone the repository to run the project locally:
 ```
-git clone https://github.com/yourusername/property-price-prediction.git
-cd property-price-prediction
+git clone https://github.com/Just-Aymz/Real-Estate-Prediction.git
+cd Real-Estate-Prediction
 pip install -r requirements.txt
-python app.py
+python main.py
 ```
 
 # **Technologies Used**
