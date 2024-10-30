@@ -10,7 +10,7 @@ This repository contains an end-to-end data science project aimed at predicting 
 4. [Exploratory Data Analysis (EDA)](#exploratory-data-analysis)
 5. [Feature Engineering](#feature-engineering)
 6. [Modeling](#modeling)
-7. [API Development](api-development)
+7. [API Development](#api-development)
 8. [Deployment](#deployment)
 9. [Results](#results)
 10. [Usage](#usage)
