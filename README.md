@@ -24,6 +24,8 @@ The goal of this project is to build a predictive model that estimates property 
 
 # **Data Collection**
 
+Webscraping File: [Webscrape](https://github.com/Just-Aymz/Real-Estate-Prediction/blob/main/PrivateProperty_Webscrape.py)
+
 Property price data is collected through web scraping. Key aspects include:
 * **Source**: Scraped from [PrivateProperty.co.za](https://www.privateproperty.co.za/).
 * **Libraries**: Selenium, Pandas
@@ -39,6 +41,8 @@ Property price data is collected through web scraping. Key aspects include:
   | Image | String | None |
 
 # **Data Cleaning and Preprocessing**
+
+Preprocessing File: [Report](https://github.com/Just-Aymz/Real-Estate-Prediction/blob/main/Property_Report.ipynb)
 
 Data cleaning ensures high-quality inputs for the model. This step includes:
 * **Data Cleaning**:
@@ -108,6 +112,9 @@ Feature engineering is applied to create meaningful features that improve model 
   * RobustScaler was applied to the features because of the aforementioned reasons.
 
 # **Modeling**
+
+Model Report: [ML Modeling](https://github.com/Just-Aymz/Real-Estate-Prediction/blob/main/Property_Modeling.ipynb)
+
 Multiple regression models were tested to determine the best fit for property price prediction, including:
 
 * **Algorithms**:
@@ -118,6 +125,9 @@ Multiple regression models were tested to determine the best fit for property pr
   * Hyperparameter tuning via GridSearchCV to identify the optimal model.
  
 # **API Development**
+
+API Main File [FastAPI](https://github.com/Just-Aymz/Real-Estate-Prediction/blob/main/main.py)
+
 An API was developed to make predictions available for live queries. Key points include:
 
 * **Framework**
@@ -136,7 +146,7 @@ The model and API are deployed to make the service accessible:
   * A simple frontend allows users to input property details and view the predicted price.
 
 # **Results**
-The final model achieves an MAE of X and an RMSE of Y, indicating robust predictive accuracy. The model’s performance was evaluated against benchmark datasets, with satisfactory results on new unseen data.
+The final model achieves an MAE of 0.0955, an RMSE of Y, and an R2 score of 77%, indicating robust predictive accuracy. The model’s performance was evaluated against benchmark datasets, with satisfactory results on new unseen data.
 
 # **Usage**
 To use the API or access the web app:
